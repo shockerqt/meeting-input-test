@@ -1,3 +1,10 @@
+import { AudioInput } from "./components/audio-input";
+
 export const App = () => {
-  return <p>React template</p>;
+  return (
+    <div>
+      <p>Audio testing</p>
+      <AudioInput />
+    </div>
+  );
 };
